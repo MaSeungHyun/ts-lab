@@ -2,6 +2,7 @@
 
 :root {
   color: var(--color-white);
+  background-color: #1e1f21;
 }
 
 @theme {
