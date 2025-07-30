@@ -7,7 +7,7 @@ export default function Button({ className, ...props }: ButtonProps) {
   return (
     <button
       className={cn(
-        "rounded-md px-4 py-1.5 bg-primary-500 hover:bg-primary-400 cursor-pointer",
+        "w-full rounded-md px-4 py-1.5 bg-primary-500 hover:bg-primary-400 cursor-pointer",
         className
       )}
       {...props}
