@@ -54,8 +54,8 @@ export default function Home() {
   const handleOpenShareSheet = () => {
     navigator.share({
       title: "WebView 알림",
-      text: "이것은 WebView에서 보낸 알림입니다!",
-      url: "https://www.naver.com",
+      text: `${inputValue} 이건 내가 쳐서 보낸겁니다람쥐`,
+      url: "https://ts-lab.vercel.app/",
     });
   };
 
